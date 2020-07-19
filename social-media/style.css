@@ -1,0 +1,85 @@
+#container {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: 45%;
+    margin-top: 20%;
+    transition-duration: 2s;
+    float: left;
+    display: block;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em black;
+}
+
+#container:hover {
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+.circle {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#circle1 {
+    visibility: hidden;
+    margin-left: -70%;
+    opacity: 0;
+    transition-duration: 1.0s;
+    background-color: transparent;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em darkorchid;
+}
+
+#circle2 {
+    visibility: hidden;
+    margin-left: -50%;
+    margin-top: 10%;
+    opacity: 0;
+    transition-duration: 0.5s;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em royalblue;
+}
+
+#circle3 {
+    visibility: hidden;
+    margin-left: -20%;
+    margin-top: -190%;
+    opacity: 0;
+    transition-duration: 1.5s;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em black;
+}
+
+.circle:hover {
+    background-color: red;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#container:hover > #circle1 {
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 1.0s;
+}
+
+#container:hover > #circle2 {
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 1.5s;
+}
+
+#container:hover > #circle3 {
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.icon {
+    width: 3vw;
+    height: 3vw;
+    align-self: center;
+    border-radius: 50%;
+}
