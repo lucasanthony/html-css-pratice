@@ -1,3 +1,12 @@
+let search_bar = document.getElementById('search-bar-div');
+
+search_bar.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        window.alert('busca realizada')
+    }
+})
+
 function showSearchInput() {
     let search_bar = document.getElementById('search-bar-div');
 
@@ -13,3 +22,4 @@ function hideSearchInput() {
     search_bar.style.width = "2em";
     search_bar.value = '';
 }
+
