@@ -1,0 +1,50 @@
+#container {
+    width: 20em;
+    height: 5em;
+    margin-left: 36%;
+    margin-top: 15%;
+}
+
+#search-icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#search-icon-div {
+    border-radius: 30px;
+    width: 2.8em;
+    height: 2.8em;
+    display: flex;
+    margin-top: 6%;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    outline: none;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em blue;
+}
+
+#search-icon-div:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+#search-bar-div {
+    border-radius: 30px;
+    width: 2em;
+    height: 3em;
+    background-color: whitesmoke;
+    border-color: blue;
+    display: flex;
+    margin-left: 2%;
+    margin-top: 6%;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 1s;
+    outline: none;
+    text-align: center;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
