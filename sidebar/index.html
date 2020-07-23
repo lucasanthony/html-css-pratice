@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta author="Lucas Anthony">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>sidebar</title>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <img src="./img/menu-white.svg" id="menu-icon" onclick="handleSidebar()">
+
+    <div id="sidebar-container">
+        <img id="profile-pic"
+            src="https://avatars2.githubusercontent.com/u/25506401?s=400&u=2c809a6693a55117fe9903ad0420ddd7c55503d6&v=4">
+
+        <div id="sidebar-content">
+            <h3 class="sidebar-option">OPÇÃO 1</h3>
+            <h3 class="sidebar-option">OPÇÃO 2</h3>
+            <h3 class="sidebar-option">OPÇÃO 3</h3>
+            <h3 class="sidebar-option">OPÇÃO 4</h3>
+        </div>
+
+        <footer id="sidebar-social">
+            <img class="social-icon" onclick="openSite('insta')" src="./img/social-icons/svg/034-instagram.svg">
+            <img class="social-icon" onclick="openSite('in')" src="./img/social-icons/svg/031-linkedin.svg">
+            <img class="social-icon" onclick="openSite('wpp')" src="./img/social-icons/svg/007-whatsapp.svg">
+            <img class="social-icon" onclick="openSite('fb')" src="./img/social-icons/svg/045-facebook.svg">
+        </footer>
+    </div>
+
+    <div id="content"></div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
